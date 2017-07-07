@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game">游戏</string>
+    <string name="book">图书</string>
+    <string name="animation">动画</string>
+    <string name="learn">学习</string>
+</resources>

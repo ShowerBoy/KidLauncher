@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/delete_child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/del_child"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/add_child_head_pic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/chocolate"
+        android:src="@drawable/fish"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/add_child_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:layout_gravity="center_vertical"
+        android:text="科比·布莱恩特"
+        android:textSize="26sp"
+        android:textColor="@color/chocolate"
+        android:layout_marginLeft="20dp"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:src="@drawable/video_play_64"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/choose_layout"
+    android:layout_width="450dp"
+    android:layout_height="450dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/parent_background"
+    android:padding="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/choose_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/parent_back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="选择照片"
+            android:textColor="@color/text_background"
+            android:textSize="30sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统头像"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/parent_text"
+        android:layout_marginTop="16dp"/>
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="4"
+        android:layout_marginTop="16dp"
+        android:horizontalSpacing="3dp"
+        android:verticalSpacing="3dp">
+
+    </GridView>
+</LinearLayout>
